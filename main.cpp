@@ -21,7 +21,7 @@ int main() {
     std::cin >> Number_Amount;
 
     for (int r = 0; r < Word_Amount; r++) {
-        int Y = rd() % 5;
+        int Y = rd() % 16;
         hold.push_back(Words[Y]);
     }
     for (int r = 0; r < Number_Amount; r++) {
